@@ -33,9 +33,9 @@
         "other_text_thickness": 0.09999999999999999,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 6.0,
-          "width": 6.0
+          "drill": 1.8,
+          "height": 2.7,
+          "width": 2.7
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.09999999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -122,7 +122,8 @@
         0.1,
         0.2,
         0.3,
-        0.5
+        0.5,
+        2.97045
       ],
       "via_dimensions": [
         {
@@ -502,6 +503,22 @@
     [
       "0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d",
       "Hub Control"
+    ],
+    [
+      "fb409081-cfac-4043-a3cd-5af42ca1d63a",
+      "DFP1"
+    ],
+    [
+      "6d728125-412c-468a-994d-ada3f4c98770",
+      "DFP2"
+    ],
+    [
+      "d216ac70-4d1b-4ba8-8e19-a26184522940",
+      "DFP3"
+    ],
+    [
+      "9861f129-4d9f-41ba-93a4-0227e1a96c7f",
+      "DFP4"
     ]
   ],
   "text_variables": {}
