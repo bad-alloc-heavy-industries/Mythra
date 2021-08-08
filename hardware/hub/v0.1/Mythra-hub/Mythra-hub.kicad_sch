@@ -940,7 +940,19 @@
     (property "Footprint" "rhais_connector-molex:39-30-1101" (id 2) (at 60.96 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 60.96 50.8 0)
+    (property "Datasheet" "https://www.molex.com/webdocs/datasheets/pdf/en-us/0039301101_PCB_HEADERS.pdf" (id 3) (at 60.96 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR" "Molex" (id 4) (at 60.96 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "39-30-1101" (id 5) (at 60.96 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "OC_FARNELL" "3107197" (id 6) (at 60.96 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL_FARNELL" "https://uk.farnell.com/molex/39-30-1101/connector-header-10pos-2row-4/dp/3107197" (id 7) (at 60.96 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9a1118f6-172d-4d0a-b305-659ecc30bd3f))
@@ -1406,6 +1418,18 @@
     (path "/5c9b5ddf-6639-496e-95f7-55c9f7b27e4d/6f8999f0-4d65-4bc6-9998-7593146b75d4"
       (reference "#PWR014") (unit 1) (value "GND") (footprint "")
     )
+    (path "/fb409081-cfac-4043-a3cd-5af42ca1d63a/099b983e-7116-4c5d-a08d-107774efc87d"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6d728125-412c-468a-994d-ada3f4c98770/099b983e-7116-4c5d-a08d-107774efc87d"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d216ac70-4d1b-4ba8-8e19-a26184522940/099b983e-7116-4c5d-a08d-107774efc87d"
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9861f129-4d9f-41ba-93a4-0227e1a96c7f/099b983e-7116-4c5d-a08d-107774efc87d"
+      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5c9b5ddf-6639-496e-95f7-55c9f7b27e4d/369418d1-d1d0-42be-a8f4-578c5b81453a"
       (reference "#PWR0101") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -1423,6 +1447,33 @@
     )
     (path "/5c9b5ddf-6639-496e-95f7-55c9f7b27e4d/4b9754b9-2301-490b-b43d-a0b6de3dfaa7"
       (reference "#PWR0106") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/5fde787f-231a-4064-a493-085a1980848d"
+      (reference "#PWR0107") (unit 1) (value "+1V1") (footprint "")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/f74dd160-3c54-43f3-a6ff-97ee109a3183"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/bbbfca56-e10d-4373-b0e1-cb3a88c9d4aa"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/3a34490d-5958-4641-8f37-1f5d63544de9"
+      (reference "#PWR0110") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/a12aa06a-f376-4648-80ab-610b5417bf41"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/378ce22a-d8a8-42fc-be24-911471dbbf68"
+      (reference "#PWR0112") (unit 1) (value "+1V1") (footprint "")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/d738ce77-478d-439c-b87d-9aa0336c3cf1"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/75f6ee4c-cb98-4cf8-90ee-c583a52855f8"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/41d4c4f0-e8e9-41c6-b499-2a0d9dc16bb1"
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
     (path "/5c9b5ddf-6639-496e-95f7-55c9f7b27e4d/e8972a00-29d2-4613-9a22-c88150db6b14"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
@@ -1448,11 +1499,80 @@
     (path "/5c9b5ddf-6639-496e-95f7-55c9f7b27e4d/74c58cfa-1bf0-4116-83c9-ea172fcf89c3"
       (reference "C8") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
     )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/0f31795d-ca0b-40fd-aed9-d9c3cdb42fbd"
+      (reference "C9") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/c86cecad-05f2-440c-8522-dda4157d3bb5"
+      (reference "C10") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/7ded568a-b13d-43b4-8846-fd8fc0d3b1e2"
+      (reference "C11") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/8d6c929a-3432-4b10-98aa-b8b26e66c035"
+      (reference "C12") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/be74261e-e063-429c-b6d7-91a32df62db3"
+      (reference "C13") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/1a7d016a-b6d5-4cbb-a92e-c7f306d309f0"
+      (reference "C14") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/07d51ba2-135b-46e9-a3e2-f1e96fa3af7c"
+      (reference "C15") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/e2e288fc-f28a-48f6-8365-b8342d878dcc"
+      (reference "C16") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/949adf1f-90ca-4272-bf7e-e970c10d2a9c"
+      (reference "C17") (unit 1) (value "10uF") (footprint "rhais_rcl:C0603")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/07526c54-18aa-4919-a248-79380f433bef"
+      (reference "C18") (unit 1) (value "10uF") (footprint "rhais_rcl:C0603")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/ed2a0f8b-289f-46ce-8521-0f3705cf5537"
+      (reference "C19") (unit 1) (value "22uF") (footprint "rhais_rcl:C1206")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/3dc23d01-ee8b-46ce-9413-39d5a1b1be05"
+      (reference "C20") (unit 1) (value "22uF") (footprint "rhais_rcl:C0603")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/e65f28b5-6aa5-4408-bc35-5b048a7407e2"
+      (reference "C21") (unit 1) (value "4.7uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/0b0fc43c-076d-4374-9213-1bb80a793bc5"
+      (reference "C22") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/fb409081-cfac-4043-a3cd-5af42ca1d63a/06b1db94-2e51-4eec-ae61-67b0ecdf65ac"
+      (reference "C23") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/6d728125-412c-468a-994d-ada3f4c98770/06b1db94-2e51-4eec-ae61-67b0ecdf65ac"
+      (reference "C24") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/d216ac70-4d1b-4ba8-8e19-a26184522940/06b1db94-2e51-4eec-ae61-67b0ecdf65ac"
+      (reference "C25") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
+    (path "/9861f129-4d9f-41ba-93a4-0227e1a96c7f/06b1db94-2e51-4eec-ae61-67b0ecdf65ac"
+      (reference "C26") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
+    )
     (path "/5c9b5ddf-6639-496e-95f7-55c9f7b27e4d/3b43d5ed-b1b9-4d10-8746-5f93d89fe5d2"
       (reference "J1") (unit 1) (value "918-418K2022C40000") (footprint "rhais_usb:USB-3.1-Type-C_In-PCB")
     )
     (path "/087fab0a-b5c1-4da0-a484-bdb466a89f09"
       (reference "J2") (unit 1) (value "Molex Power Input") (footprint "rhais_connector-molex:39-30-1101")
+    )
+    (path "/fb409081-cfac-4043-a3cd-5af42ca1d63a/c75160a9-8efa-4e78-9f19-39ebdd3da288"
+      (reference "J3") (unit 1) (value "918-418K2022C40000") (footprint "rhais_usb:USB-3.1-Type-C_In-PCB")
+    )
+    (path "/6d728125-412c-468a-994d-ada3f4c98770/c75160a9-8efa-4e78-9f19-39ebdd3da288"
+      (reference "J4") (unit 1) (value "918-418K2022C40000") (footprint "rhais_usb:USB-3.1-Type-C_In-PCB")
+    )
+    (path "/d216ac70-4d1b-4ba8-8e19-a26184522940/c75160a9-8efa-4e78-9f19-39ebdd3da288"
+      (reference "J5") (unit 1) (value "918-418K2022C40000") (footprint "rhais_usb:USB-3.1-Type-C_In-PCB")
+    )
+    (path "/9861f129-4d9f-41ba-93a4-0227e1a96c7f/c75160a9-8efa-4e78-9f19-39ebdd3da288"
+      (reference "J6") (unit 1) (value "918-418K2022C40000") (footprint "rhais_usb:USB-3.1-Type-C_In-PCB")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/4f878dd6-0aad-4cc8-a5c6-c544a744e5a8"
+      (reference "L1") (unit 1) (value "3.3uH") (footprint "rhais_coilcraft:XAL40xx")
     )
     (path "/5c9b5ddf-6639-496e-95f7-55c9f7b27e4d/2b2c5234-94de-46ee-b822-70909474c456"
       (reference "R1") (unit 1) (value "1M") (footprint "rhais_rcl:R0402")
@@ -1461,7 +1581,7 @@
       (reference "R2") (unit 1) (value "9k53") (footprint "rhais_rcl:R0402")
     )
     (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/b0543129-9ca5-4495-b528-75ab14730647"
-      (reference "R3") (unit 1) (value "10k") (footprint "rhais_rcl:C0402")
+      (reference "R3") (unit 1) (value "10k") (footprint "rhais_rcl:R0402")
     )
     (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/25adfda5-a7e8-4c0b-a45a-8ca3e2eea4c5"
       (reference "R4") (unit 1) (value "1M") (footprint "rhais_rcl:R0402")
@@ -1491,7 +1611,28 @@
       (reference "R9") (unit 4) (value "10k") (footprint "pkl_dipol:R_Array_Convex_4x0402")
     )
     (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/42579419-f85f-46dc-bae0-0e6a1a4476a9"
-      (reference "R10") (unit 1) (value "10k") (footprint "rhais_rcl:C0402")
+      (reference "R10") (unit 1) (value "10k") (footprint "rhais_rcl:R0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/f19e9814-ee67-4962-991f-81aca0ce37e9"
+      (reference "R11") (unit 1) (value "3.4k") (footprint "rhais_rcl:R0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/e032571e-4446-4296-bec1-753660a85db3"
+      (reference "R12") (unit 1) (value "10k") (footprint "rhais_rcl:R0402")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/c0477219-49ef-4192-8fa3-18070133b076"
+      (reference "R13") (unit 1) (value "20R") (footprint "rhais_rcl:R0402")
+    )
+    (path "/fb409081-cfac-4043-a3cd-5af42ca1d63a/33f6ac2e-5f46-45c5-a928-6ff9a2b8313d"
+      (reference "R14") (unit 1) (value "1M") (footprint "rhais_rcl:R0402")
+    )
+    (path "/6d728125-412c-468a-994d-ada3f4c98770/33f6ac2e-5f46-45c5-a928-6ff9a2b8313d"
+      (reference "R15") (unit 1) (value "1M") (footprint "rhais_rcl:R0402")
+    )
+    (path "/d216ac70-4d1b-4ba8-8e19-a26184522940/33f6ac2e-5f46-45c5-a928-6ff9a2b8313d"
+      (reference "R16") (unit 1) (value "1M") (footprint "rhais_rcl:R0402")
+    )
+    (path "/9861f129-4d9f-41ba-93a4-0227e1a96c7f/33f6ac2e-5f46-45c5-a928-6ff9a2b8313d"
+      (reference "R17") (unit 1) (value "1M") (footprint "rhais_rcl:R0402")
     )
     (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/457c4cd6-dd94-446e-a945-97321b9aa515"
       (reference "U1") (unit 1) (value "TUSB8042A") (footprint "rhais_package-qfn:QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm")
@@ -1513,6 +1654,9 @@
     )
     (path "/5c9b5ddf-6639-496e-95f7-55c9f7b27e4d/d5772295-92e5-4040-bc7c-87b3aae9af2d"
       (reference "U2") (unit 1) (value "HD3SS460") (footprint "rhais_package-qfn:WQFN-28-1EP_3.5x5.5_P0.5mm_EP2x4mm")
+    )
+    (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/cb81ab97-6c32-47d4-b744-46f216ec11f6"
+      (reference "U3") (unit 1) (value "BD95861MUV") (footprint "rhais_package-qfn:VQFN-24-1EP_4x4mm_P0.5mm_EP2x2mm")
     )
     (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/3a1a483b-03b8-4b61-a769-affff0d5ccfe"
       (reference "Y1") (unit 1) (value "24MHz") (footprint "rhais_osc:SMD3225")
