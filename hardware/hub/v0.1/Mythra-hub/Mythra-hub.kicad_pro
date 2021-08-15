@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 2.0
+          "height": 1.5,
+          "width": 3.8
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.09999999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -122,6 +122,7 @@
         0.1,
         0.2,
         0.3,
+        0.4,
         0.5,
         2.97045
       ],
@@ -411,22 +412,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SSUSB",
-        "nets": [
-          "/UFP/UP_RX+",
-          "/UFP/UP_RX-",
-          "/UFP/UP_RX1+",
-          "/UFP/UP_RX1-",
-          "/UFP/UP_RX2+",
-          "/UFP/UP_RX2-",
-          "/UFP/UP_TX+",
-          "/UFP/UP_TX-",
-          "/UFP/UP_TX1+",
-          "/UFP/UP_TX1-",
-          "/UFP/UP_TX2+",
-          "/UFP/UP_TX2-",
-          "/UFP/UP_TXC+",
-          "/UFP/UP_TXC-"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13208,
@@ -466,13 +452,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
     "ngspice": {
