@@ -1574,6 +1574,10 @@
     (uuid d6a84cf5-36fe-4520-8b88-8069b358b18f)
   )
 
+  (text "TODO: 3.3V supply" (at 38.1 38.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 28c4c097-8a48-441c-9bda-debb9b5f2346)
+  )
   (text "ΔVout = 504.6296mA/\n    (8*22uF*600kHz)+\n    10mohm*504.6296mA+8pH*\n    504.6296mA/166.4166ns\n      = 9.849244mV"
     (at 165.1 34.29 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

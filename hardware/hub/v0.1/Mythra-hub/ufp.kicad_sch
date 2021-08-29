@@ -1401,6 +1401,11 @@
     (uuid cca26de0-29a6-4bee-a24f-b5d9ab8e1460)
   )
 
+  (text "TODO: USB-PD controller" (at 127 38.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2717f29e-afff-4e94-b2a0-60d111eea248)
+  )
+
   (label "UP_SHIELD" (at 81.28 151.13 270)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5f8668a2-5daf-491a-a972-365f755061da)
