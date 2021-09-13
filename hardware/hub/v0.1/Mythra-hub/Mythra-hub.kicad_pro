@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 6.0,
-          "width": 6.0
+          "height": 0.25,
+          "width": 1.0
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -61,6 +61,10 @@
         "clearance|154974574|143125427|6015a4e0-df9d-4ab3-b051-3829f8f0c487|22015b59-1be3-410f-8f90-748572178f3f",
         "clearance|184974574|143125427|526f328c-140a-4f96-8930-61d8c4ba0a6a|a052b608-84c7-4f03-8694-945beb5b8ca9",
         "clearance|94975000|143125000|9c6ab1c4-8804-4637-a504-7195a1bf3724|846a5113-13c3-4624-8447-1afb3bdf1808",
+        "courtyards_overlap|108517317|138776121|c1613ca4-9ee8-4dd6-abf4-adffe2085ec7|5f090c88-b536-43b1-bddd-032c38956a9f",
+        "courtyards_overlap|138517317|138776121|c5f79e94-93a1-467c-b32a-a3cde97734de|18b05b92-f175-4d5d-90b9-c45bf9e28e81",
+        "courtyards_overlap|168517317|138776121|b03bc0bc-a699-4116-81c7-2d1490e2ea19|8ff1ac41-fd3a-46a5-bf77-a978ac6dea8a",
+        "courtyards_overlap|78517317|138776121|5779faed-af2f-4772-8b20-17c30d769241|b842e9fa-9eb8-42e4-9518-2fa06477a281",
         "hole_clearance|106400000|125099600|0fd1d3a8-abcb-4c64-8a19-979657ca412a|5fb31613-bb86-4038-a31a-ef7c69176c8c",
         "hole_clearance|106400000|125800400|0fd1d3a8-abcb-4c64-8a19-979657ca412a|4f0f350c-935e-4215-83e5-43663d2a4e6c",
         "hole_clearance|107200000|125099600|0fd1d3a8-abcb-4c64-8a19-979657ca412a|9dd2f5ff-8819-4bd4-b703-4801a1cd3dc5",
@@ -79,6 +83,7 @@
         "hole_clearance|113000000|117000000|971bab41-c702-4aa2-afcb-4cc3dc42437b|9bd4cda6-926e-4412-b32a-232c4b715325",
         "hole_clearance|113000000|118050400|971bab41-c702-4aa2-afcb-4cc3dc42437b|e57acb2e-d720-40eb-894d-58b46b02afa6",
         "hole_clearance|114050400|117000000|971bab41-c702-4aa2-afcb-4cc3dc42437b|bd161c79-0473-40ae-924d-c931f314f166",
+        "hole_clearance|118000000|70600000|0703776c-7b99-47dc-97c4-c9438fdfecab|2a65e1d1-e501-4574-abbb-5e8c6ed39fd4",
         "hole_clearance|123700000|127500000|b75aade9-488c-4d55-a2c5-450e49241867|8f9904da-0405-45f5-b024-a1b7434d44e6",
         "hole_clearance|124350000|126750000|b75aade9-488c-4d55-a2c5-450e49241867|c09b10f5-b762-4f8c-ae50-f9833961a7a3",
         "hole_clearance|124350000|128250000|b75aade9-488c-4d55-a2c5-450e49241867|6a736814-5730-4b3d-bc50-e97b2f8ee905",
@@ -153,6 +158,11 @@
         "hole_clearance|155650000|126750000|0c63f665-c5b9-4f75-957e-7ce12486c3d4|7edc09df-a0bb-4bee-9f86-8511dc3c87fc",
         "hole_clearance|155650000|128250000|0c63f665-c5b9-4f75-957e-7ce12486c3d4|94e2572c-7d36-49d6-8bf0-b44c955d1b03",
         "hole_clearance|156300000|127500000|0c63f665-c5b9-4f75-957e-7ce12486c3d4|842161bd-6693-4cd4-b1e7-18bbf5322571",
+        "hole_clearance|162949600|75000000|a4edd030-8e2e-4209-81a0-be707acc3740|90797d96-552d-4118-8471-2c97f96cbdeb",
+        "hole_clearance|164000000|73949600|a4edd030-8e2e-4209-81a0-be707acc3740|efca7bce-4321-4378-9160-a25857f04ed4",
+        "hole_clearance|164000000|75000000|a4edd030-8e2e-4209-81a0-be707acc3740|36b8063b-4242-464e-b823-646539d15fa9",
+        "hole_clearance|164000000|76050400|a4edd030-8e2e-4209-81a0-be707acc3740|3eb7cca7-9cae-46b3-b822-f7687f800823",
+        "hole_clearance|165050400|75000000|a4edd030-8e2e-4209-81a0-be707acc3740|c46f8c45-bdc1-43f1-92e3-4c4cb4a8d4ce",
         "hole_clearance|166400000|125099600|c7765ec0-1a98-402d-8413-8a1178b521a7|49ef3dd4-0108-48a2-ad4d-94ec057a70de",
         "hole_clearance|166400000|125800400|c7765ec0-1a98-402d-8413-8a1178b521a7|ee6ccc2a-7ffa-4b76-9869-612ac8589314",
         "hole_clearance|167200000|125099600|c7765ec0-1a98-402d-8413-8a1178b521a7|3967ffa7-ba8a-47c2-8dac-b753dbe4dc60",
@@ -283,6 +293,7 @@
         0.3,
         0.4,
         0.5,
+        1.0,
         2.0,
         2.97045
       ],
@@ -516,7 +527,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "DX-MON",
+      "DX_MON"
+    ]
   },
   "meta": {
     "filename": "Mythra-hub.kicad_pro",
@@ -560,8 +574,8 @@
           "/DFP3/DFP_D-",
           "/DFP4/DFP_D+",
           "/DFP4/DFP_D-",
-          "/UFP/UP_D+",
-          "/UFP/UP_D-"
+          "/UFP/UFP_D+",
+          "/UFP/UFP_D-"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
