@@ -2604,6 +2604,18 @@
     (path "/9861f129-4d9f-41ba-93a4-0227e1a96c7f/e725a5a0-5165-498c-8263-f5080af13d8a"
       (reference "#PWR0183") (unit 1) (value "GND") (footprint "")
     )
+    (path "/fb409081-cfac-4043-a3cd-5af42ca1d63a/13e126e7-992e-43cc-8ab2-1b470608bad2"
+      (reference "#PWR0184") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/6d728125-412c-468a-994d-ada3f4c98770/13e126e7-992e-43cc-8ab2-1b470608bad2"
+      (reference "#PWR0185") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/d216ac70-4d1b-4ba8-8e19-a26184522940/13e126e7-992e-43cc-8ab2-1b470608bad2"
+      (reference "#PWR0186") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/9861f129-4d9f-41ba-93a4-0227e1a96c7f/13e126e7-992e-43cc-8ab2-1b470608bad2"
+      (reference "#PWR0187") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/5c9b5ddf-6639-496e-95f7-55c9f7b27e4d/e8972a00-29d2-4613-9a22-c88150db6b14"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "rhais_rcl:C0402")
     )
@@ -2999,6 +3011,30 @@
     )
     (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/43615257-18b7-449d-8dc4-8309b3d7b164"
       (reference "L6") (unit 1) (value "22uH") (footprint "rhais_bourns:SRN5040")
+    )
+    (path "/fb409081-cfac-4043-a3cd-5af42ca1d63a/d1d810c0-681c-427c-a9aa-28e922bd00c6"
+      (reference "LED1") (unit 1) (value "RGB_LED-1616") (footprint "rhais_led:LED0606_Clockwise")
+    )
+    (path "/6d728125-412c-468a-994d-ada3f4c98770/d1d810c0-681c-427c-a9aa-28e922bd00c6"
+      (reference "LED2") (unit 1) (value "RGB_LED-1616") (footprint "rhais_led:LED0606_Clockwise")
+    )
+    (path "/d216ac70-4d1b-4ba8-8e19-a26184522940/d1d810c0-681c-427c-a9aa-28e922bd00c6"
+      (reference "LED3") (unit 1) (value "RGB_LED-1616") (footprint "rhais_led:LED0606_Clockwise")
+    )
+    (path "/9861f129-4d9f-41ba-93a4-0227e1a96c7f/d1d810c0-681c-427c-a9aa-28e922bd00c6"
+      (reference "LED4") (unit 1) (value "RGB_LED-1616") (footprint "rhais_led:LED0606_Clockwise")
+    )
+    (path "/fb409081-cfac-4043-a3cd-5af42ca1d63a/bca01cc4-bd51-442f-a7da-584eb9f7d5c6"
+      (reference "Q1") (unit 1) (value "Q_NMOS_GSD") (footprint "rhais_package-smd:SOT-23")
+    )
+    (path "/6d728125-412c-468a-994d-ada3f4c98770/bca01cc4-bd51-442f-a7da-584eb9f7d5c6"
+      (reference "Q2") (unit 1) (value "Q_NMOS_GSD") (footprint "rhais_package-smd:SOT-23")
+    )
+    (path "/d216ac70-4d1b-4ba8-8e19-a26184522940/bca01cc4-bd51-442f-a7da-584eb9f7d5c6"
+      (reference "Q3") (unit 1) (value "Q_NMOS_GSD") (footprint "rhais_package-smd:SOT-23")
+    )
+    (path "/9861f129-4d9f-41ba-93a4-0227e1a96c7f/bca01cc4-bd51-442f-a7da-584eb9f7d5c6"
+      (reference "Q4") (unit 1) (value "Q_NMOS_GSD") (footprint "rhais_package-smd:SOT-23")
     )
     (path "/5c9b5ddf-6639-496e-95f7-55c9f7b27e4d/2b2c5234-94de-46ee-b822-70909474c456"
       (reference "R1") (unit 1) (value "1M") (footprint "rhais_rcl:R0402")
