@@ -3012,18 +3012,6 @@
     (path "/0898f1e9-9131-41c0-8bd5-5d7c7d9dad6d/43615257-18b7-449d-8dc4-8309b3d7b164"
       (reference "L6") (unit 1) (value "22uH") (footprint "rhais_bourns:SRN5040")
     )
-    (path "/fb409081-cfac-4043-a3cd-5af42ca1d63a/d1d810c0-681c-427c-a9aa-28e922bd00c6"
-      (reference "LED1") (unit 1) (value "RGB_LED-1616") (footprint "rhais_led:LED0606_Clockwise")
-    )
-    (path "/6d728125-412c-468a-994d-ada3f4c98770/d1d810c0-681c-427c-a9aa-28e922bd00c6"
-      (reference "LED2") (unit 1) (value "RGB_LED-1616") (footprint "rhais_led:LED0606_Clockwise")
-    )
-    (path "/d216ac70-4d1b-4ba8-8e19-a26184522940/d1d810c0-681c-427c-a9aa-28e922bd00c6"
-      (reference "LED3") (unit 1) (value "RGB_LED-1616") (footprint "rhais_led:LED0606_Clockwise")
-    )
-    (path "/9861f129-4d9f-41ba-93a4-0227e1a96c7f/d1d810c0-681c-427c-a9aa-28e922bd00c6"
-      (reference "LED4") (unit 1) (value "RGB_LED-1616") (footprint "rhais_led:LED0606_Clockwise")
-    )
     (path "/fb409081-cfac-4043-a3cd-5af42ca1d63a/bca01cc4-bd51-442f-a7da-584eb9f7d5c6"
       (reference "Q1") (unit 1) (value "Q_NMOS_GSD") (footprint "rhais_package-smd:SOT-23")
     )
